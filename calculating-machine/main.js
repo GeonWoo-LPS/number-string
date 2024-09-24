@@ -4,3 +4,27 @@
 // 그래서 원두는 계산기에 입력된 값이 어떤 타입인지 확인하는 함수를 만들어보려 합니다.
 // 입력값이 num1과 num2로 주어질 때 입력된 값이
 // 각각 어떤 타입인지를 return하는 함수 solution을 만들어주세요.
+
+function solution(num1, num2) {
+  let result1;
+  if (isNaN(num1)) {
+    result1 = 'string';
+  } else {
+    result1 = 'number';
+  }
+  let result2;
+  if (isNaN(num2)) {
+    result2 = 'string';
+  } else {
+    result2 = 'number';
+  }
+
+  let result3 = `${result1} ${result2}`;
+
+  return result3;
+}
+
+let result = solution(1, '1');
+console.log(result);
+
+//결과 number number
