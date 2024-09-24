@@ -6,18 +6,9 @@
 // 각각 어떤 타입인지를 return하는 함수 solution을 만들어주세요.
 
 function solution(num1, num2) {
-  let result1;
-  if (isNaN(num1)) {
-    result1 = 'string';
-  } else {
-    result1 = 'number';
-  }
-  let result2;
-  if (isNaN(num2)) {
-    result2 = 'string';
-  } else {
-    result2 = 'number';
-  }
+  let result1 = typeof num1;
+
+  let result2 = typeof num2;
 
   let result3 = `${result1} ${result2}`;
 
@@ -26,5 +17,3 @@ function solution(num1, num2) {
 
 let result = solution(1, '1');
 console.log(result);
-
-//결과 number number
