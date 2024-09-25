@@ -2,3 +2,10 @@
 // 문자열 타입으로 된 숫자를 입력해도 제대로 작동하도록 고쳐가기로 합니다.
 // 입력값이 num1, num2로 주어질 때
 // 입력된 값의 합을 return하는 함수 solution을 만들어주세요.
+
+const solution = function (num1, num2) {
+  return parseInt(num1) + parseInt(num2);
+};
+
+let result = solution('1', '2');
+console.log(result);
