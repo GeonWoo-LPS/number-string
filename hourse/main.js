@@ -16,3 +16,14 @@ function solution(input) {
 console.log(solution('1'));
 console.log(solution(1));
 console.log(solution('2'));
+
+// 또는
+
+function solution2(input) {
+  let num = Number(input);
+  return num;
+}
+
+console.log(solution('1'));
+console.log(solution(1));
+console.log(solution('2'));
