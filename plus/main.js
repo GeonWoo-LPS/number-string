@@ -9,3 +9,8 @@ const solution = function (num1, num2) {
 
 let result = solution('1', '2');
 console.log(result);
+
+// 다른 방법
+function soultion1(num1, num2) {
+  return Number(num1) + Number(num2);
+}
